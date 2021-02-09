@@ -1,0 +1,8 @@
+applications:
+    - name: cloud-todo-app
+      memory: 128M
+      path: ./dist
+      buildpack: staticfile_buildpack
+      random-route: true
+      env:
+        FORCE_HTTPS: true

@@ -1,0 +1,29 @@
+version: "3"
+services:
+  todo-app-backend:
+    container_name: 'todo-app-backend'
+    build:
+      context: './todo-app-backend'
+    ports: 
+      - "5000:5000"
+  todo-app-frontend:
+    container_name: todo-app-frontend
+    build:
+      context: ./todo-app-frontend
+    ports:
+      - "5001:5001"
+  jenkins:
+    image: "jenkins/jenkins:lts"
+    container_name: "jenkins"
+    ports:
+      - "8080:8080"
+  sonarqube:
+    image: "sonarqube"
+    restart: always
+    container_name: "sonarqube"
+    ports:
+      - "9000:9000"
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
