@@ -10,6 +10,7 @@ const bugsnag = require("../bugsnag/bugsnag");
 
 // get all todo items in the db
 app.get('/', (req, res) => {
+  console.log(req);
 
   //Auth cloudant
   const service = cloudantAuth.authenticate();
