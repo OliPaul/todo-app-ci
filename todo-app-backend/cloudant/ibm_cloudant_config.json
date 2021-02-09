@@ -1,0 +1,12 @@
+{
+    "apikey": "bmhXK6siw37R5d8pNpKHROdnWrc7yHp5sXUPpLgCCyt4",
+    "host": "d9d4f04f-b7a6-44be-823c-218346182105-bluemix.cloudantnosqldb.appdomain.cloud",
+    "iam_apikey_description": "Auto-generated for key cfe65bde-99f0-406d-aae3-9b8eaa1d9c29",
+    "iam_apikey_name": "creds_for_Cloudant-4-TodoApp",
+    "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+    "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/db6ff6dc140c4d589bed7261f630e7c5::serviceid:ServiceId-2f71df40-7bb0-4d54-8a1a-c3f9a1b73410",
+    "port": 443,
+    "url": "https://d9d4f04f-b7a6-44be-823c-218346182105-bluemix.cloudantnosqldb.appdomain.cloud",
+    "username": "d9d4f04f-b7a6-44be-823c-218346182105-bluemix"
+  }
+  
