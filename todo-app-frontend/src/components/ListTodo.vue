@@ -108,7 +108,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .todo__done {
   text-decoration: line-through !important;
 }
